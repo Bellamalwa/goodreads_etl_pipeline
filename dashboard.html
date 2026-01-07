@@ -1,0 +1,57 @@
+
+    <html>
+    <head>
+        <title>Goodreads ETL Dashboard</title>
+        <style>
+            body { font-family: sans-serif; margin: 40px; background: #f4f4f9; color: #333; }
+            .card { background: white; padding: 20px; border-radius: 10px; shadow: 0 4px 8px rgba(0,0,0,0.1); }
+            h1 { color: #2c3e50; }
+            table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+            th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+            th { background-color: #34495e; color: white; }
+            .stat-box { display: inline-block; padding: 15px; background: #3498db; color: white; border-radius: 5px; margin-right: 10px; }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <h1>📊 Goodreads ETL Production Report</h1>
+            <div class="stat-box"><strong>Total Books:</strong> 1,850,115</div>
+            <div class="stat-box"><strong>Total Ratings:</strong> 362,596</div>
+            <div class="stat-box"><strong>Execution Time:</strong> 7.10s</div>
+            
+            <h2>🏆 Most Reviewed Books</h2>
+            <table border="1" class="dataframe table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>title</th>
+      <th>reviews</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Animal Farm</td>
+      <td>12189</td>
+    </tr>
+    <tr>
+      <td>The Great Gatsby</td>
+      <td>11505</td>
+    </tr>
+    <tr>
+      <td>Pride and Prejudice</td>
+      <td>10440</td>
+    </tr>
+    <tr>
+      <td>To Kill a Mockingbird</td>
+      <td>9960</td>
+    </tr>
+    <tr>
+      <td>Jane Eyre</td>
+      <td>8856</td>
+    </tr>
+  </tbody>
+</table>
+            <p><i>Report generated on: Wed Jan  7 23:24:58 2026</i></p>
+        </div>
+    </body>
+    </html>
+    

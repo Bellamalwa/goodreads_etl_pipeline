@@ -1,0 +1,8 @@
+# Ignore the large data and database files
+data/
+*.db
+goodreads_log.txt
+
+# Ignore system/python clutter
+__pycache__/
+.DS_Store
