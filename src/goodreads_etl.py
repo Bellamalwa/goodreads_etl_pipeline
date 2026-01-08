@@ -139,7 +139,7 @@ def run_production_etl():
     logging.info(f"=== ETL COMPLETE | TOTAL TIME: {total_time:.2f}s ===")
     conn.close()
 
-# === NEW: GENERATE HTML DASHBOARD ===
+# ===GENERATE HTML DASHBOARD ===
     html_content = f"""
     <html>
     <head>
@@ -173,6 +173,6 @@ def run_production_etl():
         f.write(html_content)
     print("\n🌐 Dashboard generated: dashboard.html")
     # === END HTML GENERATION ===
-    
+
 if __name__ == "__main__":
     run_production_etl()
