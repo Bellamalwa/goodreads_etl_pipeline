@@ -8,8 +8,7 @@ def search_vault():
     print("\n📚 WELCOME TO THE GOODREADS VAULT 📚")
     keyword = input("🔎 Enter a book title or keyword (e.g., 'Potter', 'Space', 'Data'): ")
 
-    # This SQL query searches for your keyword anywhere in the title
-    # and sorts them by the highest rating first
+    # This SQL query searches for your keyword anywhere in the title and sorts them by the highest rating first
     query = """
     SELECT title, avg_rating 
     FROM books 
@@ -26,7 +25,7 @@ def search_vault():
         print("❌ No books found. Try a different keyword!")
     else:
         for row in results:
-            # This prints the rating and title neatly
+            # prints the rating and title neatly
             print(f"⭐ {row[1]} | {row[0]}")
     
     conn.close()

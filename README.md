@@ -69,6 +69,13 @@ The pipeline provides real-time feedback on data ingestion rates and database in
 Detailed logging tracks the performance of the parallel workers and data validation steps.
 ![Pipeline Logs](assets/screenshots/pipeline_logs.png)
 
+### HTML VISUALIZATION
+Dashboard output on HTML  
+![Pipeline Logs](assets/screenshots/pipeline_logs.png)
+
+
+
+
 
 ### 📈 Future Roadmap
 [ ] Add a Web Dashboard using Streamlit.
